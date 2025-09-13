@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="localhost.DWChinook"
+  DTS:DTSID="{D62AB573-18B4-49C1-980F-F43E35374ECC}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=localhost;Initial Catalog=DWChinook;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-ETLChinook-{D62AB573-18B4-49C1-980F-F43E35374ECC}localhost.DWChinook;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
